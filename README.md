@@ -149,8 +149,30 @@ Resposta:
 
 # Bônus
 
-Ao compilar o projeto irá também abrir uma UI que realiza as operações de sacar, depositar, mostrando na tela as informações da conta.
+1. Ao compilar o projeto irá também abrir uma UI que realiza as operações de sacar, depositar, mostrando na tela as informações da conta.
 
+2. Em qualquer uma das requests caso a requisição seja feita com um número de conta inexistente irá ocasionar na resposta de erro:
+
+```
+{
+  "errors": [
+    {
+      "message": "Número de conta não encontrado"
+    }
+  ]
+}
+```
+3. Nas mutations "sacar" ou "depositar" caso a requisição seja feita com um número  negativo no campo valor irá ocasionar na respota de erro:
+
+```
+{
+  "errors": [
+    {
+      "message": "Números negativos não são permitidos"
+    }
+  ]
+}
+```
 
 
 
