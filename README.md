@@ -47,6 +47,7 @@ Banana Cake Pop:
 3. No campo schema endpoint insira o endpoint "https://localhost:7176/graphql".
 
 ![image](https://user-images.githubusercontent.com/77450396/226719213-dafa2ce8-77fc-4923-88b7-f349d8c5e5c6.png)
+
 As requisições estão prontas para serem chamadas no Banana Cake Pop.
 
 ## Requests
