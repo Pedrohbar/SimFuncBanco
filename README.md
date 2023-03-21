@@ -38,7 +38,9 @@ Postman:
 2. Configure o tipo da requisição para POST.
 3. Insira o endpoint "https://localhost:7176/graphql".
 4. Vá na aba "Body" e marque GraphQl.
+
 ![image](https://user-images.githubusercontent.com/77450396/226717694-6f313282-d072-47a7-9db9-b8b6932d8377.png)
+
 As requisições estão prontas para serem chamadas no Postman.
 
 Banana Cake Pop:
