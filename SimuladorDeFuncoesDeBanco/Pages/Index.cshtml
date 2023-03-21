@@ -1,0 +1,68 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta Bancária</title>
+    <link rel="stylesheet" href="~/css/index.css">
+    
+    
+</head>
+<body>
+    <header>
+        <h1>Conta Bancária</h1>
+    </header>
+
+    <main>
+        <div class="informacoes-conta">
+            <h2>Dados da Conta</h2>
+            <p id="nome-conta"></p>
+            <p id="numero-conta"></p>
+            <p id="saldo-conta"></p>
+
+            <div class="container-operacao-botoes">
+                <button id="depositar" class="botao-operacao">Depositar</button>
+                <button id="sacar" class="botao-operacao">Sacar</button>
+            </div>
+        </div>
+
+
+
+        <div class="container-modal-operacao">
+            <div class="modal-operacao">
+                <h2></h2>
+                
+                <div class="container-saldo-atual-modal">
+                    <div id="saldo-atual-modal" style="margin-right: 3px;">
+                        
+                    </div>
+                </div>
+
+                <div class="container-valor" style="">
+                    <div style="height: 100%;margin-right: 10px;font-weight: bold;font-size: 18px;">R$</div>
+                    <input type="number" id="valor-operacao">
+                </div>
+                <div class="container-botao-confirma">
+                    <button id="botao-confirma" class="botao-operacao">Confirmar</button>
+                    <button id="botao-cancela" class="botao-operacao">Cancelar</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 - Minha Conta Bancária</p>
+    </footer>
+    <script src="~/js/requests.js"></script>
+    <script src="~/js/modal.js"></script>
+    <script src="~/js/index.js"></script>
+
+
+</body>
+</html>
