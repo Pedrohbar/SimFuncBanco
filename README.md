@@ -4,8 +4,8 @@
 ## Pré-requisitos
 Antes de executar o simulador de funções de banco, é necessário configurar o ambiente e restaurar o banco de dados PostgreSQL com o backup fornecido. Siga as instruções abaixo para realizar a configuração corretamente:
 
-1. Após clonar o projeto você poderá encontrar um arquivo de backup SQL localizado no caminho SimuladorDeFuncoesDeBanco.Tests/Banco/dbSimuladorFuncBanco.sql
-é necessário fazer a restauração do banco de dados no PostgreSQL a partir do arquivo de backup SQL.
+1. Após de clonar o projeto, você encontrará um arquivo de backup SQL no caminho SimuladorDeFuncoesDeBanco.Tests/Banco/dbSimuladorFuncBanco.sql 
+Para restaurar o banco de dados no PostgreSQL, é necessário utilizar este arquivo de backup SQL.
 
 2. Com pgAdmin aberto va em Databases e crie um banco com o nome "pgBancSimFuncBanc" e salve.
 
