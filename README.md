@@ -2,6 +2,8 @@
 
 
 ## Pré-requisitos
+* O Projeto está em .NET Core 7.0, certifique-se de ter está versão.
+
 Antes de executar o simulador de funções de banco, é necessário configurar o ambiente e restaurar o banco de dados PostgreSQL com o backup fornecido. Siga as instruções abaixo para realizar a configuração corretamente:
 
 1. Após clonar o projeto, você encontrará um arquivo de backup SQL no caminho SimuladorDeFuncoesDeBanco.Tests/Banco/dbSimuladorFuncBanco.sql. Para restaurar o banco de dados no PostgreSQL, é necessário utilizar este arquivo de backup SQL.
