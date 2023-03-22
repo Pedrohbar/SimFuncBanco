@@ -4,24 +4,24 @@
 ## Pré-requisitos
 Antes de executar o simulador de funções de banco, é necessário configurar o ambiente e restaurar o banco de dados PostgreSQL com o backup fornecido. Siga as instruções abaixo para realizar a configuração corretamente:
 
-Faça o download do arquivo de backup SQL localizado no caminho SimuladorDeFuncoesDeBanco.Tests/Banco/dbSimuladorFuncBanco.sql.
+1. Após clonar o projeto você poderá encontrar um arquivo de backup SQL localizado no caminho SimuladorDeFuncoesDeBanco.Tests/Banco/dbSimuladorFuncBanco.sql.
 
-Restaure o banco de dados PostgreSQL a partir do arquivo de backup SQL
+2. Restaure o banco de dados PostgreSQL a partir do arquivo de backup SQL
 
-1. Com pgAdmin aberto va em Databases e crie um banco com o nome "pgBancSimFuncBanc" e salve.
+3. Com pgAdmin aberto va em Databases e crie um banco com o nome "pgBancSimFuncBanc" e salve.
 
 ![image](https://user-images.githubusercontent.com/77450396/226703544-7a0d9630-9587-4e82-ad73-c9b78be3a082.png)
 ![image](https://user-images.githubusercontent.com/77450396/226703867-26d203d4-6b71-4026-84d2-fb11043dbc38.png)
 
-2. Com o banco criado, va em restore.
+4. Com o banco criado, va em restore.
 
 ![image](https://user-images.githubusercontent.com/77450396/226704322-570bee35-4d97-4e5a-8e16-72c9f99456fc.png)
 
-3. Em restore procure pelo arquivo no campo filnemane 
+5. Em restore procure pelo arquivo no campo filnemane 
 
 ![image](https://user-images.githubusercontent.com/77450396/226704939-a4e060f8-e473-4b1a-9a6f-4cf71d20112d.png)
 
-4. Na aba "Data/Objects", em "Sections", habilite os campos "Pre-Data","Data" e "Post-data" e clique em restore.
+6. Na aba "Data/Objects", em "Sections", habilite os campos "Pre-Data","Data" e "Post-data" e clique em restore.
 
 ![image](https://user-images.githubusercontent.com/77450396/226705895-4e206da6-3c15-493a-9d6b-95cfddad78b2.png)
 
