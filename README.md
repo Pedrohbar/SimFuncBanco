@@ -26,6 +26,24 @@ Restaure o banco de dados PostgreSQL a partir do arquivo de backup SQL
 
 Com o banco restaurado agora o projeto está pronto para ser iniciado.
 
+## Observação
+
+Caso haja problemas na hora de compilar o código devido a connection string você pode:
+
+1. Va em "Program Files\PostgreSQL\15\data\pg_hba.conf".
+
+2. Abra como bloco de notas ou qualquer editor de texto.
+
+3.Troque o que não estiver nesse bloco como trsut para trust.
+
+4.Salve.
+
+
+
+![image](https://user-images.githubusercontent.com/77450396/226768689-7addcf96-37cc-46b2-b1e8-04f860c2f861.png)
+
+
+
 # Requests GraphQl
 Para testar as requisiões eu recomendo a utilização do Postman ou do Banana Cake Pop.
 
